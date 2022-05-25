@@ -47,9 +47,24 @@
            font-size: 24px;
            font-weight: 500;
            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           animation-name: animation-name;
+           animation-duration: 5s;
+           animation-iteration-count: infinite;
+           animation-timing-function: ease-in;
         
       
        }
+        @keyframes animation-name {
+       0% {
+           background-color: #80a3ff;
+           transform: rotateZ(45deg);
+       }
+       100% {
+           background-color: #b5f6cf;
+           transform: rotateZ(180deg);
+       }
+   }
+
 
       
 
